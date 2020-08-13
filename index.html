@@ -5,55 +5,85 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Affordable and professional web design">
 	  <meta name="keywords" content="web design, affordable web design, professional web design">
-    <title>WHECLEAN HOME</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Peto Pets</title>
+    <style>
+
+      </style>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1>WHECLEAN</h1>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-          </ul>
+
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">PeTO Pets</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+
+              </ul>
+              <div class="nav navbar-nav navbar-right"
+              <ul>
+                <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#"></a></li>
+                <!-- <li><a class="btn btn-primary" href="#" type="button">Sign in</a></li> -->
+              </ul>
+              <button type="button" class="btn btn-primary navbar-btn">Sign in</button>
+            </div>
+
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
         </nav>
-      </div>
-    </header>
 
     <section id="showcase">
-      <div class="container">
-        <h1>Welcome to WheClean Website</h1>
+      <div class="text-center jumbotron">
+        <h1>Welcome to Peto Pets  </h1>
         <p>Etiam tincidunt ante sed odio volutpat porta.</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
       </div>
     </section>
 
     <section id="newsletter">
       <div class="container">
+        <img src="./img/download.svg">
         <h1>Subscribe To Our Newsletter</h1>
-        <form>
-          <input type="email" placeholder="Enter Email..">
-          <button type="submit" class="button_1">Subscribe</button>
+        <form class="form-inline">
+          <div class="form-group">
+            <input type="email" class="form-control"placeholder="Email">
+          </div>
+          <button type="submit" class="btn btn-danger">Subscribe</button>
         </form>
       </div>
     </section>
 
+    <hr>
+
     <section id="boxes">
       <div class="container">
         <div class="box">
-          <img src="./img/WHECLEAN_ROUND.png">
+          <img src="./img/download.svg">
           <h3>Two Wheeler</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam orci ex, elementum sit amet porttitor ac, ultricies quis est. Pellentesque ac ultricies leo.</p>
         </div>
         <div class="box">
-          <img src="./img/WHECLEAN_ROUND.png">
+          <img src="./img/download.svg">
           <h3>Four Wheeler</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam orci ex, elementum sit amet porttitor ac, ultricies quis est. Pellentesque ac ultricies leo.</p>
         </div>
         <div class="box">
-          <img src="./img/WHECLEAN_ROUND.png">
+          <img src="./img/download.svg">
           <h3>Heavy Vehicle</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam orci ex, elementum sit amet porttitor ac, ultricies quis est. Pellentesque ac ultricies leo.</p>
         </div>
@@ -61,7 +91,13 @@
     </section>
 
     <footer>
-      <p>WHECLEAN, Copyright &copy; 2020</p>
+      <p>Peto, Copyright &copy; 2020</p>
     </footer>
+
+    <div style="height:400px"></div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
