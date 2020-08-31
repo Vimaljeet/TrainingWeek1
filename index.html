@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <title>Peto Pets</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Affordable and professional web design">
 	  <meta name="keywords" content="web design, affordable web design, professional web design">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <title>Peto Pets</title>
+    <link rel="stylesheet" href="./style.css"> 
+
     <style>
 
       </style>
   </head>
   <body>
 
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-inverse">
           <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -29,29 +30,26 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-
-              </ul>
-              <div class="nav navbar-nav navbar-right"
-              <ul>
+              <div class="nav navbar-nav navbar-right">
                 <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">CONTACT</a></li>
                 <li><a href="#"></a></li>
-                <!-- <li><a class="btn btn-primary" href="#" type="button">Sign in</a></li> -->
-              </ul>
-              <button type="button" class="btn btn-primary navbar-btn">Sign in</button>
-            </div>
-
+                <!-- <li><button type="button" class="btn btn-primary navbar-btn">Sign in</button></li>-->
+                <div class="btn">
+                  <li><a class="btn btn-primary" href="#">Sign in</a></li>
+                </div>
+              </div>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>
 
     <section id="showcase">
       <div class="text-center jumbotron">
+        <img>
         <h1>Welcome to Peto Pets  </h1>
         <p>Etiam tincidunt ante sed odio volutpat porta.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        <p onclick="alert('More Info will be available soon');"><a class="btn btn-defalut btn-lg" href="#" role="button">Learn more</a></p>
       </div>
     </section>
 
@@ -96,8 +94,10 @@
 
     <div style="height:400px"></div>
 
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
