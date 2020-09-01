@@ -1,0 +1,13 @@
+info: Testing winston with logger, Value 100 {"timestamp":"2020-09-01T18:27:52.909Z"}
+info: Testing winston with logger, Value 50 {"timestamp":"2020-09-01T18:28:25.948Z"}
+info: Testing winston with logger, Value 33.333333333333336 {"timestamp":"2020-09-01T18:28:35.483Z"}
+info: Testing winston with logger, Value 25 {"timestamp":"2020-09-01T18:29:08.710Z"}
+info: Testing winston with logger, Value Infinity {"timestamp":"2020-09-01T18:29:19.845Z"}
+info: Testing winston with logger, Value NaN {"timestamp":"2020-09-01T18:29:39.527Z"}
+info: Testing winston with logger, Value 0 {"timestamp":"2020-09-01T18:30:25.243Z"}
+info: Testing winston with logger, Value 0 {"timestamp":"2020-09-01T18:30:47.295Z"}
+info: Testing winston with logger, Value 0 {"timestamp":"2020-09-01T18:31:04.214Z"}
+info: Testing winston with logger, Value 200 {"timestamp":"2020-09-01T18:31:15.298Z"}
+info: Testing winston with logger, Value 200 {"timestamp":"2020-09-01T18:31:57.034Z"}
+info: Testing winston with logger, Value 200 {"timestamp":"2020-09-01T18:32:28.826Z"}
+info: Testing winston with logger, Value 76.92307692307692 {"timestamp":"2020-09-01T18:32:50.778Z"}
